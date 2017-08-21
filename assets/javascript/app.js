@@ -127,6 +127,12 @@ $(document).ready(function() {
 		});
 	}		
 
+	function resetBtn () {
+		$(".anwers").empty();
+		setup();
+
+	}
+
 	function getAnswer() {
 		$('.answerchoice').on('click', function() {
 			console.log('alert', index);
@@ -205,6 +211,7 @@ $(document).ready(function() {
 		} else {
 			$(".answerchoice").hide();
 			showScore();
+			resetBtn();
 		}
 	});
 
