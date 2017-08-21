@@ -1,0 +1,43 @@
+body {
+	background-color: gray;
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	float: left;
+}
+
+.jumbotron {
+	background-color: gray;
+}
+
+button.answerchoice {
+	display: none;
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+.timer {
+	color: purple;
+	font-size: 20px;
+}
+
+img {
+	height: 200px;
+	width: auto;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
